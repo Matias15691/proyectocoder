@@ -1,0 +1,105 @@
+
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ragone Ingenieria</title>
+      <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="estilos.css">
+  </head>
+    <body> <!--Body(lo que se ve de la pagina)--> 
+        <header> <!--Header, encabezado (en este caso comprende el logo y la barra de navegacion)-->
+            <nav>                       
+                <img class="header_nav_logo" src="img/logo.png" alt="logo">       
+                <div class="header_nav_div">
+                    <ul class="header_nav_ul">
+                        <li class="header_nav_li">
+                            <a href="index.html">inicio</a>
+                        </li>
+                        <li class="header_nav_li">
+                            <a href="nosotros.html">nosotros</a>
+                        </li>
+                        <li class="header_nav_li">
+                            <a href="servicios.html">servicios</a>
+                        </li>
+                        <li class="header_nav_li">
+                            <a href="proyectos.html">proyectos</a>
+                        </li>
+                        <li class="header_nav_li">
+                            <a href="contacto.html">contacto</a>
+                        </li>          
+                    </ul>
+                </div>
+            </nav> 
+        </header>
+        <main> <!--Principal, este es el contenido principal de cada seccion-->
+            <div class="contacto_div">
+            <form  class="contacto_form" action="servidor.php" method="post">
+                <fieldset class="contacto_fieldset" >
+                    <h2 class="contacto_titulo">Dejanos tus datos y nos contactaremos.</h2>
+                    <hr>
+                    
+                    <div class="contacto_datos">
+                        <label for="nombre">Nombre</label>
+                        <input type="text"name="nombre" placeholder="escribetunombre">
+                    </div>
+                    <div  class="contacto_datos">
+                        <label for="Apellido">Apellido</label>
+                        <input type="text"name="apellido" placeholder="escribetuapellido">
+                    </div>
+                    <div  class="contacto_datos">
+                        <label for="mail">Email</label>
+                        <input type="email"name="mail" placeholder="escribetumail">
+                    </div>
+                    <div  class="contacto_datos">
+                        <label for="pass">Password</label>
+                        <input type="pass"name="password" placeholder="password">
+                    </div>    
+                    <div  class="contacto_datos">
+                        <h3>Motivo de tu consulta</h3>
+                        <label for="motivo de tu consulta">Pedir presupuesto</label>
+                        <input type="radio" name="motivo de tu consulta" value="Pedir presupuesto">
+                        <label for="motivo de tu consulta">trabajar con nosotros</label>
+                        <input type="radio" name="motivo de tu consulta" value="trabajar con nosotros"><br>
+                    </div>
+                    <div class="contacto_espaciocomentarios">
+                        <textarea class="contacto_comentarios" name="comentario" id="comentario" placeholder="comentarios" cols="30" rows="10"></textarea>
+                    </div> 
+                        <div class="contacto_espaciobotones">
+                    <input class="contacto_botones" type="submit" value="enviar formulario">
+                    <input class="contacto_botones" type="reset" value="borrar formulario">
+                    <input class="contacto_botones" type="button" value="boton que no hace nada">
+                    </div>
+                </fieldset>
+            </form>
+            </div>
+        </main>
+        <footer> <!--pie de pagina, en este caso ponemos de nuevo una barra de navegacion y algunos enlaces de redes sociales-->
+            <ul class="footer_ul">
+                <li class="footer_li">
+                    <a href="index.html">inicio</a>
+                </li >
+                <li class="footer_li">
+                    <a href="nosotros.html">nosotros</a>
+                </li>
+                <li class="footer_li">
+                    <a href="servicios.html">servicios</a>
+                </li >
+                <li class="footer_li">
+                    <a href="proyectos.html">proyectos</a>
+                </li>
+                <li class="footer_li">
+                    <a href="contacto.html">contacto</a>
+                </li>          
+            </ul>
+            <div class="footer_redes">
+                <a href="https://www.instagram.com/?hl=es"><img class="imagenredes" src="/PaginaIngenieria-RagoneMatias/img/instagram.png" alt="logo instagram"></a>
+                <a href="https://www.facebook.com/?hl=es"><img class="imagenredes" src="/PaginaIngenieria-RagoneMatias/img/facebook.png" alt="logo facebook"></a>
+                <a href="https://www.web.whatsapp.com/?hl=es"><img class="imagenredes" src="/PaginaIngenieria-RagoneMatias/img/whatsapp.png" alt="logo whatsapp"></a>
+                <a href="https://www.linkedin.com/?hl=es"><img class="imagenredes" src="/PaginaIngenieria-RagoneMatias/img/linkedin.png" alt="logo linkedin"></a>
+            </div>   
+        </footer>
+    </body>
+</html>
