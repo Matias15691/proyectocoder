@@ -13,8 +13,8 @@ body{
     display: grid;
     grid-template-columns: 35% auto;  
     grid-template-rows: auto auto auto;  
-
 }
+
 .divlogo{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
