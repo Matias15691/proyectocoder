@@ -14,8 +14,6 @@ body{
 
 .content {
     display: grid;
-    /*grid-template-columns: 35% auto;  
-    grid-template-rows: auto auto auto;*/
     grid-template-areas: 
     "logo"
     "menu"
@@ -25,22 +23,21 @@ body{
 }
 
 .divlogo{
-/*     grid-column: 1 / 2;
-    grid-row: 1 / 2; */
     padding: 25px;
     grid-area: logo;
+    background-color: black;
+    opacity: 0.5;
 }
 .imglogo{
     width: 100%;   
 }
 
 .header_nav_div{
-/*     grid-column: 2 / 3; 
-    grid-row: 1 / 2; */
     grid-area: menu;
-    height: 70px;
+    height: 160px;
     overflow-x: scroll;
-    width: 100%
+    background-color: black;
+    opacity: 0.5;
 } 
 
 .header_nav_div ul{
@@ -58,9 +55,7 @@ a{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.25rem;
 }
-main{
-/*     grid-column: 1 / 3;
-    grid-row: 2 / 3; */  
+main{ 
     grid-area: contenido;
     padding: 5px;
 }
@@ -86,8 +81,6 @@ main{
 
 footer{
     background-color: rgb(97, 97, 97);
-    /*grid-column: 1 / 3;
-    grid-row: 3 / 4; */
     grid-area: footer;
     display: flex;
     justify-content: space-between;
@@ -106,117 +99,121 @@ padding: 5px;
 }
 
 .footer_redes{
-    display: flex;
-
+display: flex;
 }
+
 .footer_redes a{
 padding: 15px;
-
 }
+
 .imagenredes{
     width: 30px;
 }
-.nosotros_main_div{
 
-display: inline-block;
-width: 30%;
-height: 80%;
-margin: 60px;
+/*aqui empieza "nosotros"*/
+
+.main_nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.nosotros_main_div{
 background-color: bisque;
+opacity: 0.8;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 border-radius: 30px;
-
+width: 100%;
+padding: 15px;
+margin: 5px;
 }
+
 .nosotros_main_h1{
-font-size: 3rem;
-text-align: center;
-margin-top: 30px;
 color: grey;
-
+text-align: center;
+padding: 15px;
 }
-.nosotros_main_parrafos{
 
-font-size: 1.6rem;
+.nosotros_main_parrafos{
 color: gray;
 text-align: center;
-margin: 30px;
 }
+
 .nosotros_main_linea{
 color: grey;
-
 }
+
 .nosotros_main_ul{
 color: grey;
 text-align: center;
 margin: 30px;
 }
+
 .nosotros_main_li{
 color: grey;
-font-size: 2.7rem;
 margin: 30px;
+font-size: 2rem;
 }
+
 .proyectos_video{
-    display: inline-block;  
-    width: 50%; 
-    height: 70%;
+    width: 100%;
     border-radius: 30px;
 }
+
 .contacto_div{
     background-color: grey;
     height: 97%;
     width: 70%;
     margin: 0 auto;
-    border-radius: 40px;
-    
+    border-radius: 40px; 
 }
-.contacto_form{
-    
-    font-size: 2rem;
+
+.contacto_form{ 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 100%;
-    height: 100%;
-       
+    height: 100%;     
 }
+
 .contacto_fieldset{
     width: 100%;
     height: 100%;
-
 }
+
 .contacto_titulo{
     color: rgb(27, 27, 27);
     text-align: center;
-
  }
+
 .contacto_datos{
    margin: 10px 20px;
- 
 }
+
 .contacto_espaciocomentarios{
     width: 95%;
     height: 30%;
     margin: 0 auto;
 }
+
 .contacto_comentarios{
 height: 100%;
 width: 100%;
-
 }
+
 .contacto_espaciobotones{
     text-align: center;
     margin-top: 10px;
 }
 
 .contacto_botones{
-    font-size: 1.6rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:rgb(73, 72, 72);
     padding: 9px;
-    margin: 0 60px;
+    font-weight: bold;
 }
-:placeholder-shown{
-    font-size: 1.5rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+:placeholder-shown{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 @media (min-width:768px){
@@ -235,13 +232,24 @@ width: 100%;
         align-items: center;
         overflow-x: unset;
         place-self: center;
+        width: 100%;
     } 
+
+    .divlogo{
+        width: 100%;
+    }
+
     .header_nav_div ul{
         display: flex;
         flex-wrap: wrap;
     }
+    .main_nosotros{
+        flex-direction: row;
+    }
+    .nosotros_main_div{
+        width: 40%;
+    }
+    .proyectos_video{
+        width: 50%;
+    }
 }
-
-
-
-
