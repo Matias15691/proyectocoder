@@ -12,19 +12,9 @@ body{
     background-size: cover;
 }
 
-.content {
-    display: grid;
-    grid-template-areas: 
-    "logo"
-    "menu"
-    "contenido"
-    "footer";
-    width: 100%;
-}
 
 .divlogo{
     padding: 25px;
-    grid-area: logo;
     background-color: black;
     opacity: 0.5;
 }
@@ -33,20 +23,14 @@ body{
 }
 
 .header_nav_div{
-    grid-area: menu;
-    height: 160px;
+    height: 190px;
     overflow-x: scroll;
     background-color: black;
     opacity: 0.5;
 } 
 
-.header_nav_div ul{
-    display: flex; 
-}
-
 .header_nav_li{
-        display: inline;
-        margin-left: 15px;        
+    margin-left: 15px;        
 }
 
 a{
@@ -56,7 +40,6 @@ a{
     font-size: 1.25rem;
 }
 main{ 
-    grid-area: contenido;
     padding: 5px;
 }
 .main_h1{
@@ -81,7 +64,6 @@ main{
 
 footer{
     background-color: rgb(97, 97, 97);
-    grid-area: footer;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,10 +95,8 @@ padding: 15px;
 /*aqui empieza "nosotros"*/
 
 .main_nosotros{
-    display: flex;
     justify-content: space-evenly;
     padding: 15px;
-    flex-direction: column;
 }
 
 .nosotros_main_div{
