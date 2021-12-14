@@ -7,41 +7,44 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Ragone Ingenieria</title>
       <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
       <link rel="stylesheet" href="estilos.css">
   </head>
-    <body> <!--Body(lo que se ve de la pagina)-->
-        <div class="content">
-            <div class="divlogo">            
-                <img class="imglogo" src="img/logo.png" alt="logo">  <!--imagen logo PNG -->  
-            </div>   
-            <div class="header_nav_div"><!--contenedor para la lista (desordenada) con la barra de navegacion. tambien se repite en el footer-->
-                <ul>
-                    <li class="header_nav_li"><!--elementos de la lista-->
-                        <a href="index.html">inicio</a>
-                    </li>
-                    <li class="header_nav_li">
-                        <a href="nosotros.html">nosotros</a>
-                    </li>
-                    <li class="header_nav_li">
-                        <a href="servicios.html">servicios</a>
-                    </li>
-                    <li class="header_nav_li">
-                        <a href="proyectos.html">proyectos</a>
-                    </li>
-                    <li class="header_nav_li">
-                        <a href="contacto.html">contacto</a>
-                    </li>          
-                </ul>
+    <body > <!--Body(lo que se ve de la pagina)-->
+        <div class="container">
+            <div class="row">
+                <div class="divlogo col">            
+                    <img class="imglogo" src="img/logo.png" alt="logo">  <!--imagen logo PNG -->  
+                </div>   
+                <div class="header_nav_div col"><!--contenedor para la lista (desordenada) con la barra de navegacion. tambien se repite en el footer-->
+                    <ul>
+                        <li class="header_nav_li"><!--elementos de la lista-->
+                            <a href="index.html">inicio</a>
+                        </li>
+                        <li class="header_nav_li">
+                            <a href="nosotros.html">nosotros</a>
+                        </li>
+                        <li class="header_nav_li">
+                            <a href="servicios.html">servicios</a>
+                        </li>
+                        <li class="header_nav_li">
+                            <a href="proyectos.html">proyectos</a>
+                        </li>
+                        <li class="header_nav_li">
+                            <a href="contacto.html">contacto</a>
+                        </li>          
+                    </ul>
+                </div>
             </div>
-            <main class="main_nosotros"> <!--Principal, este es el contenido principal de cada seccion-->
-                <div class="nosotros_main_div">
+            <main class="main_nosotros row"> <!--Principal, este es el contenido principal de cada seccion-->
+                <div class="nosotros_main_div col">
                     <h1 class="nosotros_main_h1">Proyecto minero</h1>
                     <p class="nosotros_main_parrafos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem consequatur magni neque dolores odit accusantium enim officia illo inventore quos! Quis nostrum rerum vitae fuga nihil dolorem animi autem pariatur esse, eveniet earum voluptate consectetur omnis officiis impedit cumque doloribus molestias explicabo blanditiis voluptas! Et error, a dolor alias accusantium accusamus reiciendis officia quia asperiores impedit quam consectetur? Assumenda magnam unde fugit quibusdam quo animi quae explicabo optio earum odit culpa saepe, temporibus debitis beatae nulla totam, consequuntur nesciunt labore iure. Magnam sunt perferendis culpa itaque dolore ab, ipsum nobis minima, earum dolor deserunt suscipit fugiat cum possimus quod accusamus!</p>
                 </div>  
-                <iframe class="proyectos_video" src="https://www.youtube.com/embed/uA2o6eLkCss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="proyectos_video col" src="https://www.youtube.com/embed/uA2o6eLkCss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </main>
-            <footer> <!--pie de pagina, en este caso ponemos de nuevo una barra de navegacion y algunos enlaces de redes sociales-->
-                <ul class="footer_ul">
+            <footer class="row"> <!--pie de pagina, en este caso ponemos de nuevo una barra de navegacion y algunos enlaces de redes sociales-->
+                <ul class="footer_ul col">
                     <li class="footer_li">
                         <a href="index.html">inicio</a>
                     </li >
@@ -58,13 +61,14 @@
                         <a href="contacto.html">contacto</a>
                     </li>          
                 </ul>
-                <div class="footer_redes">
-                    <a href="https://www.instagram.com/?hl=es"><img class="imagenredes" src="/PaginaIngenieria-RagoneMatias/img/instagram.png" alt="logo instagram"></a>
-                    <a href="https://www.facebook.com/?hl=es"><img class="imagenredes" src="/PaginaIngenieria-RagoneMatias/img/facebook.png" alt="logo facebook"></a>
-                    <a href="https://www.web.whatsapp.com/?hl=es"><img class="imagenredes" src="/PaginaIngenieria-RagoneMatias/img/whatsapp.png" alt="logo whatsapp"></a>
-                    <a href="https://www.linkedin.com/?hl=es"><img class="imagenredes" src="/PaginaIngenieria-RagoneMatias/img/linkedin.png" alt="logo linkedin"></a>
+                <div class="footer_redes col">
+                    <a href="https://www.instagram.com/?hl=es"><img class="imagenredes" src="/img/instagram.png" alt="logo instagram"></a>
+                    <a href="https://www.facebook.com/?hl=es"><img class="imagenredes" src="/img/facebook.png" alt="logo facebook"></a>
+                    <a href="https://www.web.whatsapp.com/?hl=es"><img class="imagenredes" src="/img/whatsapp.png" alt="logo whatsapp"></a>
+                    <a href="https://www.linkedin.com/?hl=es"><img class="imagenredes" src="/img/linkedin.png" alt="logo linkedin"></a>
                 </div>   
             </footer>
-        </div>   
+        </div> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
     </body>
 </html>
