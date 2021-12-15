@@ -12,33 +12,24 @@ body{
     background-size: cover;
 }
 
-
 .divlogo{
-    padding: 25px;
     background-color: black;
     opacity: 0.5;
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
 .imglogo{
-    width: 100%;   
+    width: 100%;  
 }
 
 .header_nav_div{
     height: 190px;
     overflow-x: scroll;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.5;  
 } 
 
-.header_nav_li{
-    margin-left: 15px;        
-}
-
-a{
-    text-decoration: none;
-    color: aliceblue; 
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.25rem;
-}
 main{ 
     padding: 5px;
 }
@@ -76,12 +67,13 @@ padding: 15px;
 list-style: none;
 }
 
-.footer_li{
-padding: 5px;
+.colora{
+    color: blanchedalmond;
 }
 
 .footer_redes{
 display: flex;
+justify-content: end;
 }
 
 .footer_redes a{
