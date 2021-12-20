@@ -1,0 +1,39 @@
+.divlogo {
+    background-color: $color-black;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 190px;
+  
+    .imglogo {
+      width: 100%; 
+    }
+  }
+  
+  .header_nav_div{
+    height: 190px;
+    overflow-x: scroll;
+    background-color: $color-black;
+    opacity: 0.8;  
+  }
+  
+  @media (min-width:768px) {
+    .header_nav_div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow-x: unset;
+      place-self: center;
+      width: 100%;
+    } 
+  
+    .divlogo{
+        width: 100%;
+    }
+  
+    .header_nav_div ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }

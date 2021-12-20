@@ -1,0 +1,52 @@
+@import 'base';
+
+.contacto_div{
+  background-color: $color-grey;
+  height: 97%;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 40px; 
+}
+
+.contacto_form{ 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  height: 100%;     
+}
+
+.contacto_fieldset{
+  width: 100%;
+  height: 100%;
+}
+
+.contacto_titulo{
+  color: $color-black-light;
+  text-align: center;
+}
+
+.contacto_datos{
+ margin: 10px 20px;
+}
+
+.contacto_espaciocomentarios{
+  width: 95%;
+  height: 30%;
+  margin: 0 auto;
+}
+
+.contacto_comentarios{
+height: 100%;
+width: 100%;
+}
+
+.contacto_espaciobotones{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contacto_botones{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:$color-grey;
+  padding: 9px;
+  font-weight: bold;
+}

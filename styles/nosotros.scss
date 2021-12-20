@@ -1,0 +1,58 @@
+@import 'base';
+
+.main_nosotros{
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+.nosotros {
+
+  &_main_div{
+    background-color: bisque;
+    opacity: 0.8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 30px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+  }
+  
+  &_main_h1{
+  color: grey;
+  text-align: center;
+  padding: 15px;
+  }
+  
+  &_main_parrafos{
+  color: gray;
+  text-align: center;
+  }
+  
+  &_main_linea{
+  color: grey;
+  }
+  
+  &_main_ul{
+  color: grey;
+  text-align: center;
+  margin: 30px;
+  }
+  
+  &_main_li{
+  color: grey;
+  margin: 30px;
+  font-size: 2rem;
+  }
+}
+
+
+.proyectos_video{
+  width: 100%;
+  border-radius: 30px;
+}
+
+@media (min-width:768px){
+  .proyectos_video{
+    width: 50%;
+  }
+}

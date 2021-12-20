@@ -1,0 +1,27 @@
+footer{
+    background-color: $color-black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    opacity: 0.8;
+  }
+  
+  .footer_ul{
+    display: flex;
+    padding: 15px;
+    list-style: none;
+  }
+  
+  .footer_redes{
+    display: flex;
+    justify-content: end;
+  }
+  
+  .footer_redes a{
+    padding: 15px;
+  }
+  
+  .imagenredes{
+    width: 30px;
+  }

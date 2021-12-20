@@ -1,0 +1,23 @@
+@import 'colors';
+@import 'animations';
+
+@import 'header';
+@import 'footer';
+
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300&family=Roboto:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/img/imagenbody.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.colora{
+  color: $color-white;
+}
