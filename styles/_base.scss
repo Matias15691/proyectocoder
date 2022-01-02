@@ -1,4 +1,5 @@
 @import 'colors';
+@import 'maps';
 @import 'animations';
 
 @import 'header';
@@ -13,11 +14,11 @@
 }
 
 body {
-  background-image: url(img/imagenbody.jpg);
+  background-image: url(/img/imagenbody.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .colora{
-  color: $color-white;
+  color: map-get($colores , blanco );
 }

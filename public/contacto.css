@@ -123,13 +123,13 @@ footer {
 }
 
 body {
-  background-image: url(img/imagenbody.jpg);
+  background-image: url(/img/imagenbody.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .colora {
-  color: blanchedalmond;
+  color: #ffebcd;
 }
 
 .contacto_div {
