@@ -1,0 +1,26 @@
+{
+  "name": "paginaingenieria-ragonematias-1",
+  "version": "1.0.0",
+  "description": "Proyectocoder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass styles -o public",
+    "sass:watch": "npm run compile:sass -- --watch",
+    "dev": "npm run compile:sass && npm run sass:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matias15691/proyectocoder.git"
+  },
+  "author": "matias ragone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matias15691/proyectocoder/issues"
+  },
+  "homepage": "https://github.com/Matias15691/proyectocoder#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
