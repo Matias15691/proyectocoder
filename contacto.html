@@ -38,65 +38,44 @@
                 </ul>
             </div>
             </div>
-            <main class="row"> <!--Principal, este es el contenido principal de cada seccion-->
+            <main> <!--Principal, este es el contenido principal de cada seccion-->
                 <div class="contacto_div">
                 <form  class="contacto_form" action="servidor.php" method="post">
                     <fieldset class="contacto_fieldset" >
-                        <h2 class="contacto_titulo">Dejanos tus datos y nos contactaremos.</h2>
+                        <h2 class="contacto_titulo">Contact Us.</h2>
                         <hr>
                         
                         <div class="contacto_datos">
-                            <label for="nombre">Nombre</label>
-                            <input type="text"name="nombre" placeholder="escribetunombre">
+                            <label for="Name">Name</label>
+                            <input type="text"name="Name" placeholder="John">
                         </div>
                         <div  class="contacto_datos">
-                            <label for="Apellido">Apellido</label>
-                            <input type="text"name="apellido" placeholder="escribetuapellido">
+                            <label for="Last name">Last name</label>
+                            <input type="text"name="Last name" placeholder="Smith">
                         </div>
                         <div  class="contacto_datos">
                             <label for="mail">Email</label>
-                            <input type="email"name="mail" placeholder="escribetumail">
-                        </div>
+                            <input type="email"name="mail" placeholder="JohnSmith123@...">
+                        </div>   
                         <div  class="contacto_datos">
-                            <label for="pass">Password</label>
-                            <input type="pass"name="password" placeholder="password">
-                        </div>    
-                        <div  class="contacto_datos">
-                            <h3>Motivo de tu consulta</h3>
-                            <label for="motivo de tu consulta">Pedir presupuesto</label>
-                            <input type="radio" name="motivo de tu consulta" value="Pedir presupuesto">
-                            <label for="motivo de tu consulta">trabajar con nosotros</label>
-                            <input type="radio" name="motivo de tu consulta" value="trabajar con nosotros"><br>
+                            <h3>Reason for inquiry</h3>
+                            <label for="Reason for inquiry">Badget</label>
+                            <input type="radio" name="Reason for inquiry" value="Badget">
+                            <label for="Reason for inquiry">work with us</label>
+                            <input type="radio" name="Reason for inquiry" value="work with us"><br>
                         </div>
                         <div class="contacto_espaciocomentarios">
-                            <textarea class="contacto_comentarios" name="comentario" id="comentario" placeholder="comentarios" cols="30" rows="10"></textarea>
+                            <textarea class="contacto_comentarios" name="comentario" id="comentario" placeholder="comments" cols="30" rows="10"></textarea>
                         </div> 
                             <div class="contacto_espaciobotones">
-                        <input class="contacto_botones" type="submit" value="enviar formulario">
-                        <input class="contacto_botones" type="reset" value="borrar formulario">
+                        <input class="contacto_botones" type="submit" value="Send">
+                        <input class="contacto_botones" type="reset" value="Erase">
                         </div>
                     </fieldset>
                 </form>
                 </div>
             </main>
             <footer class="row"> <!--pie de pagina, en este caso ponemos de nuevo una barra de navegacion y algunos enlaces de redes sociales-->
-                <ul class="footer_ul col">
-                    <li class=" nav-item">
-                        <a class="colora nav-link" href="index.html">HOME</a>
-                    </li >
-                    <li class=" nav-item">
-                        <a class="colora nav-link" href="nosotros.html">company</a>
-                    </li>
-                    <li class=" nav-item">
-                        <a class="colora nav-link" href="servicios.html">services</a>
-                    </li >
-                    <li class="nav-item">
-                        <a class="colora nav-link" href="proyectos.html">projects</a>
-                    </li>
-                    <li class=" nav-item">
-                        <a class="colora nav-link" href="contacto.html">contact</a>
-                    </li>          
-                </ul>
                 <div class="footer_redes col"> <!--contenedor para los enlaces a redes sociales con sus respectivas imagenes-->
                     <a href="https://www.instagram.com/?hl=es"><img class="imagenredes" src="img/instagram.png" alt="logo instagram"></a>
                     <a href="https://www.facebook.com/?hl=es"><img class="imagenredes" src="img/facebook.png" alt="logo facebook"></a>

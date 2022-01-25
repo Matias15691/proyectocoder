@@ -64,7 +64,6 @@
 
 .header_nav_div {
   height: 190px;
-  overflow-x: scroll;
   background-color: black;
   opacity: 0.8;
 }
@@ -98,12 +97,6 @@ footer {
   opacity: 0.8;
 }
 
-.footer_ul {
-  display: flex;
-  padding: 15px;
-  list-style: none;
-}
-
 .footer_redes {
   display: flex;
   justify-content: end;
@@ -124,7 +117,7 @@ footer {
 }
 
 body {
-  background-image: url("img/imagenbody.jpg");
+  background-image: url(/img/imagenbody.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }

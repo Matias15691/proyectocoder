@@ -2,10 +2,8 @@
 
 .contacto_div{
   background-color: $color-grey;
-  height: 97%;
-  width: 70%;
-  margin: 0 auto;
-  border-radius: 40px; 
+  border-radius: 10px; 
+  margin: 15px;
 }
 
 .contacto_form{ 
@@ -47,6 +45,7 @@ width: 100%;
 .contacto_botones{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color:$color-grey;
-  padding: 9px;
+  padding: 20px;
   font-weight: bold;
+  width: 30%;
 }
